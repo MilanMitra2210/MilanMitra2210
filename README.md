@@ -1,4 +1,4 @@
-<a href="#"><img width="100%" height="auto" src="img/Milan.jpg" height="200px"/></a>
+<a href="#"><img width="100%" height="auto" src="https://cdn.pixabay.com/photo/2020/08/08/02/56/hacker-5471975_960_720.png" height="200px"/></a>
 
 <h1 align="center">Hi <img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" width="30px">, I'm Milan Mitra</h1>
 <h3 align="center">I'm a passionate Full Stack Developer and java Developer in India.</h3>
@@ -52,7 +52,7 @@
 ## 📊 My Github Stats
 
   <br/>
-    <a href="https://github.com/MilanMitra2210/github-readme-stats"><img alt="Milan Mitra's Github Stats" src="https://github-readme-stats.vercel.app/api?username=MilanMitra2210&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a>
+    <!-- <a href="https://github.com/MilanMitra2210/github-readme-stats"><img alt="Milan Mitra's Github Stats" src="https://github-readme-stats.vercel.app/api?username=MilanMitra2210&show_icons=true&count_private=true&theme=react&hide_border=true&bg_color=0D1117" /></a> -->
   <a href="https://github.com/MilanMitra2210/github-readme-stats"><img alt="Milan Mitra's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MilanMitra2210&langs_count=8&count_private=true&layout=compact&theme=react&hide_border=true&bg_color=0D1117" /></a>
   <br/>
   <b>Note:</b> Top languages is only a metric of the languages my public code consists of and doesn't reflect experience or skill level.
