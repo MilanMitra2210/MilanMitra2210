@@ -6,7 +6,7 @@
 
 ## 🙋‍♂️ About Me
 
-- 🔭 I’m currently working on **[Travel and Tourism managment system](https://github.com/MilanMitra2210/PBL2-travel-management-system.git)**
+- 🔭 I’m currently working on **[Effluent Monitoring system](https://github.com/MilanMitra2210/)**
 
 - 🌱 I’m currently learning **Data Structures and Algorithms.**
 
