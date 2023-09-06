@@ -39,4 +39,4 @@
 ![](https://github-contributor-stats.vercel.app/api?username=MilanMitra2210&limit=5&theme=flat&combine_all_yearly_contributions=true)
 
 ### 📈 My GitHub Contributions
-![Snake animation](https://github.com/MilanMitra2210/MilanMitra2210/blob/output/github-contribution-grid-snake.svg)
+![snake gif](https://github.com/MilanMitra2210/MilanMitra2210/blob/output/github-contribution-grid-snake.svg)
