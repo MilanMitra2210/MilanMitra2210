@@ -13,7 +13,7 @@
 
 - 📫 How to reach me **milanmitra2204@gmail.com**
 
-- 📄 Know about my experiences [Milan Mitra](https://drive.google.com/drive/u/0/folders/1tzExxFIMXxmZhpM9YCoN9qBsZWFU3U9M)
+- 📄 Know about my experiences [Milan Mitra](https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14yr/view?usp=drivesdk)
 
 
 <h3 align="left">Connect with me:</h3>
