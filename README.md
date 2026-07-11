@@ -29,7 +29,40 @@ g++ -O3 -std=c++20 milan_core.cpp modules.cpp dsa.o -o milan-core
 
 ---
 
-### 0x02 // Interactive Terminal Prompt
+### 0x02 // Mainframe Process Monitor (`htop` simulation)
+
+```text
+  CPU[||||||||||||||||||||||||||||||||||||||||||||            74.2%]
+  Mem[||||||||||||||||||||||||||||||                          48.6GB/64.0GB]
+  Swp[|                                                        1.2GB/16.0GB]
+
+  PID USER      PRI  NI  VIRT   RES   SHR S CPU% MEM%   TIME+  Command
+ 2026 milan      20   0 12.4g  4.2g  1.2g S 42.1  6.5  8:12.04 java -jar target/spring-boot-app.jar
+ 1092 milan      20   0  8.8g  2.1g  0.8g S 18.4  3.2  4:05.12 next-router-worker --port 3000
+ 3051 milan      20   0  6.2g  1.8g  0.6g S 12.0  2.8  2:44.89 node dist/express-api.js
+  412 milan      20   0  4.1g  1.1g  0.4g S  4.2  1.7  0:52.31 postgres -D /usr/local/var/postgres
+   88 milan      20   0  1.2g  0.3g  0.1g S  1.5  0.4  0:10.15 arduino-cli monitor -p /dev/ttyACM0
+```
+
+---
+
+### 0x03 // VCS Commit Pipeline (`git log --graph`)
+
+```text
+milanmitra@mainframe:~$ git log --graph --oneline --all --decorate
+* 6c7c2b2 (HEAD -> main, origin/main) feat: integrate springboot service modules
+* 4f9e1a3 feat: implement EAV catalog schema for dynamic attributes
+*   2d8e412 Merge pull request #4 from milan/optimize-db-indexes
+|\  
+| * a1b2c3d optimize: add composite indexes to postgres catalog queries
+| * e4f5a6b fix: resolve memory leaks on next-router connection pool
+|/  
+* 8c9d0e1 feat: dockerize microservice environment & setups
+```
+
+---
+
+### 0x04 // Interactive Terminal Prompt
 
 ```bash
 milanmitra@mainframe:~$ cat profile.conf
@@ -45,7 +78,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x03 // Core Systems Stacks & Modules
+### 0x05 // Core Systems Stacks & Modules
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr>
@@ -122,7 +155,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x04 // System Status & Engineering Paradigms
+### 0x06 // System Status & Engineering Paradigms
 
 ```yaml
 systems_diagnostics:
@@ -139,7 +172,7 @@ engineering_methodologies:
 
 ---
 
-### 0x05 // Performance Diagnostics & Metrics
+### 0x07 // Performance Diagnostics & Metrics
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
@@ -160,7 +193,7 @@ engineering_methodologies:
 
 ---
 
-### 0x06 // Comm Gateway Uplinks
+### 0x08 // Comm Gateway Uplinks
 
 <div align="center">
   <a href="https://linkedin.com/in/milan-mitra" target="blank">
