@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0b10" />
+      <stop offset="100%" stop-color="#050508" />
+    </linearGradient>
+    
+    <!-- Neon Cyan Glow -->
+    <filter id="glow-cyan" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    
+    <!-- Neon Pink Glow -->
+    <filter id="glow-pink" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <!-- Graph Gradient -->
+    <linearGradient id="graph-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0.0" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .terminal-header { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #565f89; }
+    .title { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 800; font-size: 32px; fill: #00f3ff; letter-spacing: 3px; }
+    .subtitle { font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif; font-weight: 500; font-size: 13px; fill: #ff007f; letter-spacing: 5px; }
+    .stats-label { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #7aa2f7; }
+    .stats-value { font-family: 'Courier New', Courier, monospace; font-size: 11px; fill: #00ff66; font-weight: bold; }
+    .grid-lines { stroke: #1f2335; stroke-width: 0.5; opacity: 0.4; }
+  </style>
+
+  <!-- Container Box -->
+  <rect width="850" height="260" rx="10" fill="url(#bg-grad)" stroke="#1a1b26" stroke-width="2" />
+
+  <!-- Grid Background -->
+  <g class="grid-lines">
+    <!-- Horizontal -->
+    <line x1="0" y1="40" x2="850" y2="40" />
+    <line x1="0" y1="80" x2="850" y2="80" />
+    <line x1="0" y1="120" x2="850" y2="120" />
+    <line x1="0" y1="160" x2="850" y2="160" />
+    <line x1="0" y1="200" x2="850" y2="200" />
+    <line x1="0" y1="240" x2="850" y2="240" />
+    <!-- Vertical -->
+    <line x1="100" y1="40" x2="100" y2="260" />
+    <line x1="200" y1="40" x2="200" y2="260" />
+    <line x1="300" y1="40" x2="300" y2="260" />
+    <line x1="400" y1="40" x2="400" y2="260" />
+    <line x1="500" y1="40" x2="500" y2="260" />
+    <line x1="600" y1="40" x2="600" y2="260" />
+    <line x1="700" y1="40" x2="700" y2="260" />
+    <line x1="800" y1="40" x2="800" y2="260" />
+  </g>
+
+  <!-- Window controls -->
+  <circle cx="20" cy="20" r="6" fill="#ff5f56" />
+  <circle cx="40" cy="20" r="6" fill="#ffbd2e" />
+  <circle cx="60" cy="20" r="6" fill="#27c93f" />
+  
+  <text x="90" y="24" class="terminal-header">milanmitra@mainframe: ~ (sh)</text>
+
+  <!-- Static divider under titlebar -->
+  <line x1="0" y1="40" x2="850" y2="40" stroke="#1a1b26" stroke-width="1.5" />
+
+  <!-- Cybernetic Frame & Accent Lines -->
+  <!-- Left accent bar -->
+  <rect x="15" y="60" width="4" height="175" rx="2" fill="#00f3ff" filter="url(#glow-cyan)" />
+  <!-- Corner decors -->
+  <path d="M 835 60 L 835 75" stroke="#ff007f" stroke-width="2" fill="none" filter="url(#glow-pink)" />
+  <path d="M 820 60 L 835 60" stroke="#ff007f" stroke-width="2" fill="none" filter="url(#glow-pink)" />
+
+  <path d="M 835 235 L 835 220" stroke="#ff007f" stroke-width="2" fill="none" filter="url(#glow-pink)" />
+  <path d="M 820 235 L 835 235" stroke="#ff007f" stroke-width="2" fill="none" filter="url(#glow-pink)" />
+
+  <!-- Main Title -->
+  <text x="40" y="105" class="title" filter="url(#glow-cyan)">MILAN MITRA</text>
+  <text x="43" y="128" class="subtitle">BACKEND-FOCUSED FULL STACK ENGINEER</text>
+
+  <!-- Wave/Graph Visual -->
+  <path d="M 400 130 C 450 60, 480 180, 530 110 C 580 40, 610 200, 660 120 C 710 40, 750 150, 800 90 L 800 235 L 400 235 Z" fill="url(#graph-grad)" stroke="#00f3ff" stroke-width="1.5" opacity="0.6" filter="url(#glow-cyan)" />
+  <!-- Dotted guide lines in graph -->
+  <line x1="400" y1="130" x2="800" y2="130" stroke="#00f3ff" stroke-width="1" stroke-dasharray="2,5" opacity="0.4" />
+  <line x1="400" y1="175" x2="800" y2="175" stroke="#00f3ff" stroke-width="1" stroke-dasharray="2,5" opacity="0.2" />
+
+  <!-- System Logs Panel -->
+  <g transform="translate(45, 155)">
+    <!-- Column 1 -->
+    <text x="0" y="15" class="stats-label">ROLE:</text>
+    <text x="80" y="15" class="stats-value">BACKEND / FULL STACK</text>
+    
+    <text x="0" y="35" class="stats-label">LOC:</text>
+    <text x="80" y="35" class="stats-value">MOHALI, IN (GMT+5:30)</text>
+
+    <text x="0" y="55" class="stats-label">STACKS:</text>
+    <text x="80" y="55" class="stats-value">JAVA / SPRING / AWS</text>
+    
+    <!-- Column 2 -->
+    <text x="210" y="15" class="stats-label">EXP:</text>
+    <text x="290" y="15" class="stats-value">2.7+ YOE (75WAY)</text>
+
+    <text x="210" y="35" class="stats-label">STATUS:</text>
+    <text x="290" y="35" class="stats-value" fill="#ffb86c">DESIGNING_SCALABLE_SYS</text>
+
+    <text x="210" y="55" class="stats-label">DSA_METRIC:</text>
+    <text x="290" y="55" class="stats-value">500+ SOLVED</text>
+  </g>
+
+  <!-- Blinking Cursor -->
+  <rect x="40" y="222" width="8" height="2" fill="#00ff66" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite" />
+  </rect>
+  <text x="53" y="224" class="stats-label" style="fill: #565f89; font-size: 10px;">SECURE UPLINK ACTIVE</text>
+</svg>
