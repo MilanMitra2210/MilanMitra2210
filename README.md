@@ -13,7 +13,23 @@
 
 ---
 
-### 0x01 // Interactive Terminal Prompt
+### 0x01 // Systems Diagnostics & Compilation
+
+```bash
+milanmitra@mainframe:~$ make brain
+g++ -O3 -std=c++20 milan_core.cpp modules.cpp dsa.o -o milan-core
+./milan-core --daemonize --ports=80,443,8080
+
+ 🧠 [SYSTEM] Loading neural pathways...               [ SUCCESS ]
+ ⚡ [KERNEL] Allocating heap memory...                [  64 GB  ]
+ 💾 [DRIVER] Loading DB interfaces (PgSQL/Mongo)...   [ ACTIVE  ]
+ 🛡️ [SECURE] Validating JWT & OAuth handshake...      [ VERIFIED]
+ ☕ [STATUS] Caffeine level detection...             [ 120% OVERCLOCK ]
+```
+
+---
+
+### 0x02 // Interactive Terminal Prompt
 
 ```bash
 milanmitra@mainframe:~$ cat profile.conf
@@ -29,7 +45,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x02 // Core Systems Stacks & Modules
+### 0x03 // Core Systems Stacks & Modules
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr>
@@ -106,7 +122,24 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x03 // Performance Diagnostics & Metrics
+### 0x04 // System Status & Engineering Paradigms
+
+```yaml
+systems_diagnostics:
+  core_kernel:   "██████████████████████████░░░░░ [ 84% STABLE ]"
+  neural_link:   "██████████████████████████████░ [ 97% ONLINE ]"
+  caffeine_lvl:  "██████████████████████████████ [ 120% OVERCLOCK ]"
+
+engineering_methodologies:
+  architecture: [ "Microservices", "RESTful API Design", "EAV Catalog Design" ]
+  optimization: [ "Query Performance Tuning", "SSR/ISR Caching", "Asset Lazy-Loading" ]
+  security:     [ "Role-Based Access Control (RBAC)", "JWT/OAuth2", "CORS Whitelisting" ]
+  cloud_ops:    [ "Asynchronous Media Pipelines", "S3 Presigned Uploads", "CDN Distribution" ]
+```
+
+---
+
+### 0x05 // Performance Diagnostics & Metrics
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
@@ -127,7 +160,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x04 // Comm Gateway Uplinks
+### 0x06 // Comm Gateway Uplinks
 
 <div align="center">
   <a href="https://linkedin.com/in/milan-mitra" target="blank">
@@ -154,5 +187,5 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 <br/>
 
 <div align="center">
-  <sub>Mainframe status: <b>SECURE</b>. Connections are routed through TLS v1.3.</sub>
+  <sub>Designed with 🌌 by <a href="https://github.com/MilanMitra2210">Milan Mitra</a>. Operations pipeline: <b>READY</b>.</sub>
 </div>
