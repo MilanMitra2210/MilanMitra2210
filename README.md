@@ -96,28 +96,7 @@ milanmitra@mainframe:~$ git log --graph --oneline --all --decorate
 
 ---
 
-### 0x05 // JVM Runtime Optimizations (`sysctl.conf`)
-
-```yaml
-# Advanced garbage collection & thread pool tuning parameters
-spring_boot_tuning:
-  java_opts:
-    gc_algorithm: "-XX:+UseG1GC"
-    gc_pause_target: "-XX:MaxGCPauseMillis=200"
-    gc_ref_proc: "-XX:+ParallelRefProcEnabled"
-    heap_occupancy: "-XX:InitiatingHeapOccupancyPercent=45"
-    entropy_source: "-Djava.security.egd=file:/dev/./urandom"
-  datasource_pool:
-    type: "com.zaxxer.hikari.HikariDataSource"
-    maximum_pool_size: 20
-    minimum_idle: 5
-    idle_timeout_ms: 30000
-    connection_timeout_ms: 20000
-```
-
----
-
-### 0x06 // Interactive Terminal Prompt
+### 0x05 // Interactive Terminal Prompt
 
 ```bash
 milanmitra@mainframe:~$ cat profile.conf
@@ -133,7 +112,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x07 // Core Systems Stacks & Modules
+### 0x06 // Core Systems Stacks & Modules
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr>
@@ -210,7 +189,7 @@ CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14
 
 ---
 
-### 0x08 // System Status & Engineering Paradigms
+### 0x07 // System Status & Engineering Paradigms
 
 ```yaml
 systems_diagnostics:
@@ -227,7 +206,7 @@ engineering_methodologies:
 
 ---
 
-### 0x09 // Performance Diagnostics & Metrics
+### 0x08 // Performance Diagnostics & Metrics
 
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
@@ -248,7 +227,7 @@ engineering_methodologies:
 
 ---
 
-### 0x0a // Comm Gateway Uplinks
+### 0x09 // Comm Gateway Uplinks
 
 <div align="center">
   <a href="https://linkedin.com/in/milan-mitra" target="blank">
