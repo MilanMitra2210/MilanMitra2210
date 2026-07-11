@@ -85,7 +85,7 @@
 
   <!-- Main Title -->
   <text x="40" y="105" class="title" filter="url(#glow-cyan)">MILAN MITRA</text>
-  <text x="43" y="128" class="subtitle">BACKEND-FOCUSED FULL STACK ENGINEER</text>
+  <text x="43" y="128" class="subtitle">SOFTWARE ENGINEER</text>
 
   <!-- Wave/Graph Visual -->
   <path d="M 400 130 C 450 60, 480 180, 530 110 C 580 40, 610 200, 660 120 C 710 40, 750 150, 800 90 L 800 235 L 400 235 Z" fill="url(#graph-grad)" stroke="#00f3ff" stroke-width="1.5" opacity="0.6" filter="url(#glow-cyan)" />
@@ -97,23 +97,23 @@
   <g transform="translate(45, 155)">
     <!-- Column 1 -->
     <text x="0" y="15" class="stats-label">ROLE:</text>
-    <text x="80" y="15" class="stats-value">BACKEND / FULL STACK</text>
+    <text x="75" y="15" class="stats-value">SOFTWARE ENGINEER</text>
     
     <text x="0" y="35" class="stats-label">LOC:</text>
-    <text x="80" y="35" class="stats-value">MOHALI, IN (GMT+5:30)</text>
+    <text x="75" y="35" class="stats-value">MOHALI, IN (GMT+5:30)</text>
 
     <text x="0" y="55" class="stats-label">STACKS:</text>
-    <text x="80" y="55" class="stats-value">JAVA / SPRING / AWS</text>
+    <text x="75" y="55" class="stats-value">JAVA / SPRING / AWS</text>
     
     <!-- Column 2 -->
-    <text x="210" y="15" class="stats-label">EXP:</text>
-    <text x="290" y="15" class="stats-value">2.7+ YOE (75WAY)</text>
+    <text x="260" y="15" class="stats-label">EXP:</text>
+    <text x="330" y="15" class="stats-value">2.7+ YOE (75WAY)</text>
 
-    <text x="210" y="35" class="stats-label">STATUS:</text>
-    <text x="290" y="35" class="stats-value" fill="#ffb86c">DESIGNING_SCALABLE_SYS</text>
+    <text x="260" y="35" class="stats-label">STATUS:</text>
+    <text x="330" y="35" class="stats-value" fill="#ffb86c">ACTIVE_DIAGNOSTICS</text>
 
-    <text x="210" y="55" class="stats-label">DSA_METRIC:</text>
-    <text x="290" y="55" class="stats-value">500+ SOLVED</text>
+    <text x="260" y="55" class="stats-label">DSA:</text>
+    <text x="330" y="55" class="stats-value">500+ SOLVED</text>
   </g>
 
   <!-- Blinking Cursor -->
