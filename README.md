@@ -107,7 +107,7 @@ CURRENT_FOCUS = "Data Structures & Algorithms (DSA)"
 ASK_ME_ABOUT  = "Web Development, REST APIs, & Cloud Architecture"
 UPLINK_ADDR   = "milanmitra2204@gmail.com"
 PORTFOLIO_URI = "https://github.com/MilanMitra2210?tab=repositories"
-CREDENTIALS   = "https://drive.google.com/file/d/1EkRCplT7-CXCd8bQXTrm96EAZKRB14yr/view"
+CREDENTIALS   = "https://drive.google.com/file/d/1E5MzSv39S0aHfKpxbZuB0ZZM-el4fma0/view?usp=sharing"
 ```
 
 ---
