@@ -211,10 +211,10 @@ engineering_methodologies:
 <table align="center" width="100%" style="border-collapse: collapse; border: none;">
   <tr style="border: none;">
     <td align="center" style="border: none;" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api?username=MilanMitra2210&show_icons=true&locale=en&bg_color=0d0e15&title_color=00f3ff&text_color=7aa2f7&icon_color=ff007f&border_color=1a1b26&show=prs_merged,prs_merged_compare,commits,issues" alt="Milan's GitHub Stats" width="100%"/>
+      <img src="https://github-stats-extended.vercel.app/api?username=MilanMitra2210&show_icons=true&locale=en&bg_color=0d0e15&title_color=00f3ff&text_color=7aa2f7&icon_color=ff007f&border_color=1a1b26&show=prs_merged,prs_merged_compare,commits,issues" alt="Milan's GitHub Stats" width="100%"/>
     </td>
     <td align="center" style="border: none;" width="50%">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=MilanMitra2210&show_icons=true&locale=en&layout=compact&bg_color=0d0e15&title_color=00f3ff&text_color=7aa2f7&icon_color=ff007f&border_color=1a1b26" alt="Milan's Top Languages" width="100%"/>
+      <img src="https://github-stats-extended.vercel.app/api/top-langs?username=MilanMitra2210&show_icons=true&locale=en&layout=compact&bg_color=0d0e15&title_color=00f3ff&text_color=7aa2f7&icon_color=ff007f&border_color=1a1b26" alt="Milan's Top Languages" width="100%"/>
     </td>
   </tr>
   <tr style="border: none;">
